@@ -1,0 +1,44 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #D3D3C9;
+}
+.container{
+    max-width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.icon {
+    width: 28px;
+    border-top: 12px double #FFF;
+    display: inline-block;
+    padding-top: 5px;
+    position: absolute;
+    top: 26px;
+    border-bottom: 4px solid #FFF;
+    display: none;
+}
+.menu {
+    background-color: #D3D3C9;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.menu li{
+    display: inline-block;
+    padding-left: 15px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #204D77;
+    font-family: "Rubik-Bold";
+    font-weight: bold;
+}
+.menu li a:hover{
+    border-bottom: 1px solid #204D77;
+}
