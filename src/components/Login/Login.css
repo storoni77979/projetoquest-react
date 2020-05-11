@@ -1,0 +1,46 @@
+.central{
+    height: 500px;
+    background-color: #204D77;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    width: 23%;
+    background-color: #D3D3C9;
+    height: 246px;
+}
+.login h1{
+    text-align: center;
+    font-family: "Rubik-Bold";
+    color: #204D77;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.login form{
+    text-align: center;
+}
+.login input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #204D77;
+    padding-top: 10px;
+    outline: none;
+}
+.enviar{
+    margin-top: 20px;
+    font-family: "Rubik-Bold";
+    font-size: 16px;
+    background-color: #204D77;
+    color: #F3F2EA;
+    border: none;
+    padding: 3px 45px;
+}
+.login a{
+    display: inline-block;
+    font-family: "Lora-Bold";
+    font-size: 14px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #204D77;
+}

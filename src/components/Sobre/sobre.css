@@ -1,0 +1,82 @@
+.sobre-wrap{
+    display: flex;
+    background-color: #204D77;
+}
+
+.projeto{
+    width: 50%;
+    padding: 40px 0;
+    line-height: 1.5;
+
+}
+
+.container-sobre {
+    width: 77%;
+    margin: 0 auto;
+    margin-bottom: 58%;
+
+}
+
+.projeto h1{
+    color: #69D1EB;
+    font-family: "Rubik-Bold";
+    font-size: 24px;
+}
+
+.projeto p{
+    color: #F3F2EA;
+    font-family: "Lora-Bold";
+    font-size: 18px;
+}
+
+.equipe{
+    width: 45%;
+    background-color: #69D1EB;
+    padding: 40px 0;
+}
+
+.equipe h1, .equipe p{
+    color: #204D77;
+
+}
+
+.equipe h1{
+    font-family: "Rubik-Bold";
+    font-size: 24px;
+}
+
+.equipe p{
+    margin-top: 33px;
+    font-family: "Lora-Bold";
+    font-size: 18px;
+}
+
+.integrantes{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 35px 0 0 0;
+    padding: 0;
+
+}
+
+.integrantes h4, .integrantes h3 {
+    font-family: "Lora-Bold";
+    font-size: 18px;
+}
+
+.integrantes li{
+   padding-left: 20px;
+   border-radius: 5px;
+   text-align: center;
+
+}
+
+.integrantes h3{
+    margin-top: 20px;
+}
+
+.linkedin{
+    width: 24%;
+    margin-top: 8px;
+}
