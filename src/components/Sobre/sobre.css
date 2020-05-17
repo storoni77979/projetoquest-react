@@ -80,3 +80,74 @@
     width: 24%;
     margin-top: 8px;
 }
+
+@media (max-width: 927px) {
+
+    .integrantes {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .membros {
+        width: 80%;
+        
+    }
+}
+
+@media (max-width: 768px) {
+  .container-sobre {
+        margin-bottom: 10px;
+   }
+}   
+
+@media (max-width: 768px) {
+    
+    .membros {
+        width: 80%;
+        
+    }
+    .integrantes {
+        flex-direction: column;
+       
+    }
+
+    .integrantes li {
+        padding: 0;
+    }
+}
+
+@media (max-width:1229px) {
+    .projeto {
+        width: 40%;
+    }
+    .equipe {
+        width: 60%;
+    }
+}
+
+@media (max-width: 927px) {
+    .projeto {
+        width: 50%;
+    }
+    .equipe {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre-wrap {
+        flex-direction: column;
+    }
+}    
+
+@media (max-width: 768px) {
+
+    .projeto {
+        width: 100%;
+    }
+    .equipe {
+        width: 100%;
+        text-align: center;
+       
+    }
+}    

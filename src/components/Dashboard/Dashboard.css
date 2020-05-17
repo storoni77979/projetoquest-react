@@ -1,0 +1,23 @@
+.container-restrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 860px;
+  background-color: #204d77;
+}
+
+.btn-logout {
+    position: relative;
+    top: -471px;
+    left: 53px;
+    border: none;
+    font-size: 20px;
+    color: #204D77;
+    background-color: transparent;
+    font-family: "Rubik-Bold";
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+

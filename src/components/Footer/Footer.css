@@ -16,3 +16,47 @@
 .redes-sociais a img {
      width: 90%;
 }
+
+@media (min-width:361px) and (max-width: 414px) {
+
+    .redes-sociais {
+        display: flex;
+    }
+
+    .redes-sociais li img {
+        width: 100%;
+    }
+    
+}
+
+@media (min-width:321px) and (max-width: 360px) {
+    .redes-sociais {
+        display: flex;
+    }
+
+    .redes-sociais li img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .redes-sociais {
+        display: flex;
+    }
+
+    .redes-sociais li img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .redes-sociais {
+        display: flex;
+    }
+
+    .redes-sociais li img {
+        width: 100%;
+    }
+}    
+

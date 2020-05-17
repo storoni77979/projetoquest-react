@@ -4,7 +4,9 @@ import ReactDom from 'react-dom';
 import App from './App';
 
 ReactDom.render(
-      <App />,
+      <div>
+        <App />
+      </div>,
        
         document.getElementById('root')
 )

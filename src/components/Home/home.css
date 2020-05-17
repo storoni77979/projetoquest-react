@@ -1,0 +1,9 @@
+.content-principal {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #204d77;
+  align-items: center;
+  padding-bottom: 150px;
+  height: auto;
+
+}

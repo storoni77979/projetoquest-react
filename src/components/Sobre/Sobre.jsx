@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
+import store from'store';
 import './sobre.css'
 
 function Sobre() {
+		store.remove('loggedIn');
     return(
         <div className="sobre-wrap">
 		<section className="projeto">
